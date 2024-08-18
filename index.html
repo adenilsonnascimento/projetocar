@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=New+Amsterdam&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Carros - Projeto Animaçoes</title>
+</head>
+
+<body>
+    <header>
+        <img src="imagens/logo.png" alt="Logo">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Carros</a></li>
+                <li><a href="#">Fale Conosco</a></li>
+        </nav>
+    </header>
+
+    <section class="container">
+        <div class="list">
+            <div class="item active">
+                <div class="car-img">
+                    <img src="imagens/1.png" alt="imagem carro">
+                </div>
+                <div class="content">
+                    <p class="car-information colorName">Volkswagen</p>
+
+                    <h2>
+                        Fusca
+                    </h2>
+
+                    <p class="description">
+
+                        O Fusca é um ícone automobilístico, conhecido por sua simplicidade, durabilidade e design
+                        clássico que conquistou gerações ao redor do mundo.
+                    </p>
+                    <button class="information">
+                        Saiba Mais
+                    </button>
+                </div>
+            </div>
+            <div class="item">
+                <div class="car-img">
+                    <img src="imagens/2.png" alt="imagem carro">
+                </div>
+                <div class="content">
+                    <p class="car-information colorName">Fiat</p>
+
+                    <h2>
+                        Uno
+                    </h2>
+
+                    <p class="description">
+                        O Fiat Uno é um verdadeiro símbolo de praticidade e economia, conquistando o coração dos
+                        brasileiros com sua resistência e desempenho simples, tornando-se um dos carros mais amados do
+                        país.
+                    </p>
+                    <button class="information">
+                        Saiba Mais
+                    </button>
+                </div>
+            </div>
+            <div class="item">
+                <div class="car-img">
+                    <img src="imagens/3.png" alt="imagem carro">
+                </div>
+                <div class="content">
+                    <p class="car-information colorName">Chevrolet</p>
+
+                    <h2>
+                        Opala
+                    </h2>
+
+                    <p class="description">
+                        O Chevrolet Opala é um clássico dos anos 70 e 80, conhecido por seu conforto, potência e
+                        elegância, tornando-se um dos carros mais admirados e desejados da história automotiva
+                        brasileira.
+                    </p>
+                    <button class="information">
+                        Saiba Mais
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrows">
+            <button id="prev"><img src="imagens/arrow.png" alt="Seta Esquerda"></button>
+            <button id="next"><img src="imagens/arrow.png" alt="Seta Direita"></button>
+        </div>
+        <div class="indicators">
+            <div class="number">01</div>
+            <ul>
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+            </ul>
+
+        </div>
+    </section>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
